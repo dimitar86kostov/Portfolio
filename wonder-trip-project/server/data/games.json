@@ -1,0 +1,90 @@
+{
+    "5137f51e-8aaf-481b-858a-6fdb7b0b6f12": {
+        "title": "CS",
+        "category": "First-Person Shooter",
+        "maxLevel": 10,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/CounterStrikeOnlineCover.jpg",
+        "summary": "Counter-Strike is an objective-based, multiplayer tactical first-person shooter. Two opposing teams—the Terrorists and the Counter Terrorists—compete in game modes to complete objectives, such as securing a location to plant or defuse a bomb and rescuing or guarding hostages.",
+        "_id": "5137f51e-8aaf-481b-858a-6fdb7b0b6f12"
+    },
+    "1fd2b0d1-65f9-4d4a-8731-bfa87846e531": {
+        "title": "The Legend of Zelda: Ocarina of Time",
+        "category": "Action-Adventure",
+        "maxLevel": 10,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+        "summary": "A young boy named Link is tasked with stopping the evil king Ganondorf from obtaining the Triforce, a sacred relic that grants its holder ultimate power.",
+        "_id": "1fd2b0d1-65f9-4d4a-8731-bfa87846e531"
+    },
+    "0c8d98d0-fe9a-463b-9912-2eba76923cf1": {
+        "title": "Perfect Dark",
+        "category": "First-Person Shooter",
+        "maxLevel": 20,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Perfect_dark_box.jpg",
+        "summary": "Joanna Dark, an agent of the Carrington Institute, must uncover a conspiracy involving an alien race and a shadowy corporation.",
+        "_id": "0c8d98d0-fe9a-463b-9912-2eba76923cf1"
+    },
+    "58db6fc7-9b50-4d57-9c15-098315333594": {
+        "title": "Tony Hawk's Pro Skater",
+        "category": "Sports",
+        "maxLevel": 10,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/Thps1box.jpg",
+        "summary": "A skateboarding video game where players complete tricks and objectives to earn points and unlock new levels and skaters.",
+        "_id": "58db6fc7-9b50-4d57-9c15-098315333594"
+    },
+    "8bff6f08-c2d0-4f1a-a360-b47235a92dea": {
+        "title": "StarCraft",
+        "category": "Real-Time Strategy",
+        "maxLevel": 30,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/29/StarCraft_box_art.jpg",
+        "summary": "In a distant sector of the galaxy, three species—the Terrans, Zerg, and Protoss—battle for dominance in a real-time strategy environment.",
+        "_id": "8bff6f08-c2d0-4f1a-a360-b47235a92dea"
+    },
+    "d339faae-ba9f-4f2f-9680-aa6044e24acf": {
+        "title": "Satisfactory",
+        "category": "Simulation",
+        "maxLevel": 50,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e7/Satisfactory_cover_art.png",
+        "summary": "A factory-building simulation game where players explore an alien planet, gather resources, and build complex production lines to create increasingly advanced products.",
+        "_id": "d339faae-ba9f-4f2f-9680-aa6044e24acf"
+    },
+    "dce63f2a-987d-48fd-9c1c-f84d6de6d738": {
+        "title": "Wolf",
+        "category": "Simulation",
+        "maxLevel": 10,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/48/Wolf_coverart.png",
+        "summary": "A simulation game where players take on the role of a wolf, learning to survive and thrive in a realistic wilderness environment.",
+        "_id": "dce63f2a-987d-48fd-9c1c-f84d6de6d738"
+    },
+    "e45af3c6-4103-4439-bbad-7f34c0016776": {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "category": "Action-Adventure",
+        "maxLevel": 50,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+        "summary": "Link awakens from a long slumber to a world in ruin and must defeat Calamity Ganon to save the kingdom of Hyrule.",
+        "_id": "e45af3c6-4103-4439-bbad-7f34c0016776"
+    },
+    "c655da5b-d4f0-4e8f-9a0e-a66aac0a88ad": {
+        "title": "Super Mario Galaxy",
+        "category": "Platform",
+        "maxLevel": 40,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/78/SuperMarioGalaxy.jpg",
+        "summary": "Mario travels across various galaxies to rescue Princess Peach from Bowser, collecting Power Stars and encountering a variety of challenges and characters along the way.",
+        "_id": "c655da5b-d4f0-4e8f-9a0e-a66aac0a88ad"
+    },
+    "267cd651-ce95-40f6-a6c5-d408f9d35ee0": {
+        "title": "Grand Theft Auto IV",
+        "category": "Action-Adventure",
+        "maxLevel": 20,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/Grand_Theft_Auto_IV_cover.jpg",
+        "summary": "Niko Bellic, an Eastern European immigrant, comes to Liberty City to pursue the American Dream but gets entangled in a world of crime and corruption.",
+        "_id": "267cd651-ce95-40f6-a6c5-d408f9d35ee0"
+    },
+    "20bb25f4-29b1-4449-ad77-3fca15d4466f": {
+        "title": "SoulCalibur",
+        "category": "Fighting",
+        "maxLevel": 8,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/Soulcalibur_video_game.jpg",
+        "summary": "A weapon-based fighting game where players use various characters, each with their own unique weapons and fighting styles, to battle against each other.",
+        "_id": "20bb25f4-29b1-4449-ad77-3fca15d4466f"
+    }
+}
