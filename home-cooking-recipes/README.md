@@ -16,23 +16,23 @@ Build with **Node.js**, **Express**, **MongoDB** и **Handlebars**.
 
 ## 🚀 Getting Started
 
-### 🧩 1. Clone the repository
-git clone https://github.com/dimitar86kostov/Portfolio.git
+#### 🧩 1. Clone the repository
+git# clone https://github.com/dimitar86kostov/Portfolio.git
 
-### 📂 2. Navigate to the project folder
+#### 📂 2. Navigate to the project folder
 `cd home-cooking-recipes`
 
-### 📦 3. Install dependencies
+#### 📦 3. Install dependencies
 `npm install`
 
-### ▶️ 4. Start the application
+#### ▶️ 4. Start the application
 `npm start`
 
 ### 🌐 5. Open in your browser
 http://localhost:3000
 
 
-✨ Features
+## ✨ Features
 
 👤 User registration and login
 
@@ -43,20 +43,21 @@ http://localhost:3000
 📜 View a list of all recipes
 
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
-Node.js – backend runtime environment
+**Node.js** – backend runtime environment
 
-Express.js – web application framework
+**Express.js** – web application framework
 
-MongoDB – database
+**MongoDB** – database
 
-Handlebars – templating engine
+**Handlebars** – templating engine
 
-CSS – styling
+**CSS** – styling
 
 📂 Project Structure
 
+``bash
 home-cooking-recipes/
 │
 ├── models/         # Database models
