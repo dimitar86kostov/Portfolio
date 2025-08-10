@@ -16,19 +16,19 @@ Build with **Node.js**, **Express**, **MongoDB** и **Handlebars**.
 
 ## 🚀 Getting Started
 
-#### 🧩 1. Clone the repository
+ 🧩 1. Clone the repository
 git# clone https://github.com/dimitar86kostov/Portfolio.git
 
-#### 📂 2. Navigate to the project folder
+ 📂 2. Navigate to the project folder
 `cd home-cooking-recipes`
 
-#### 📦 3. Install dependencies
+ 📦 3. Install dependencies
 `npm install`
 
-#### ▶️ 4. Start the application
+ ▶️ 4. Start the application
 `npm start`
 
-### 🌐 5. Open in your browser
+ 🌐 5. Open in your browser
 http://localhost:3000
 
 
