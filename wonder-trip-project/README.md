@@ -42,18 +42,18 @@ Built as a modern Single Page Application (SPA) with **React** and client-side r
 
 ## 🚀 Getting Started
 
-1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/dimitar86kostov/Portfolio.git
 cd Portfolio/wonder-trip-project
 ```
 
-3. Install dependencies
+### 3. Install dependencies
 ```bash
 npm install
 ```
 
-4. Run the app in development mode
+### 4. Run the app in development mode
 ```bash
 npm run dev
 ```
@@ -77,6 +77,9 @@ wonder-trip-project/
 │   │   ├── Layouts.jsx   # Layout components (e.g., header/footer wrappers)
 │   │   ├── index.jsx     # React DOM render entry point
 │   │   └── main.jsx      # App bootstrap - main logic initialization
+├── server/               # Backend (SoftUni practice server)
+│   ├── data/             # Pre-loaded JSON collections
+│   └── server.js         # Server source code entry point
 ├── package.json          # Project dependencies and scripts
 ├── vite.config.js        # Vite configuration
 └── README.md             # Project documentation
