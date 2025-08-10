@@ -48,15 +48,24 @@ git clone https://github.com/dimitar86kostov/Portfolio.git
 cd Portfolio/wonder-trip-project
 ```
 
-### 3. Install dependencies
+### 2. Install dependencies
 ```bash
 npm install
 ```
 
-### 4. Run the app in development mode
+### 3. Run the server
 ```bash
+cd server
+node server.js
+```
+
+### 4. Run the client in development mode
+```bash
+cd client
 npm run dev
 ```
+
+### 5. Open in your browser http://localhost:5173
 
 ## 📂 Project Structure
 
