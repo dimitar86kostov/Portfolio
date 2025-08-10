@@ -42,6 +42,8 @@ http://localhost:3000
 
 📜 View a list of all recipes
 
+🔍 Search recipes by name or ingredients
+
 
 ## 🛠 Technologies Used
 
