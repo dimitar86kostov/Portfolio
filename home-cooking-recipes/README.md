@@ -1,6 +1,6 @@
 # Home Cooking Recipes 🍲
 
-A server-side rendered web application for sharing and exploring home-cooked recipes.
+A **server-side rendered** web application for sharing and exploring home-cooked recipes.
  
 Build with **Node.js**, **Express**, **MongoDB** и **Handlebars**.
 
@@ -55,15 +55,16 @@ http://localhost:3000
 
 **CSS** – styling
 
-📂 Project Structure
+## 📂 Project Structure
 
-``bash
+```plaintext
 home-cooking-recipes/
 │
-├── models/         # Database models
-├── views/          # Handlebars templates
-├── public/         # Static assets (CSS, images)
-├── controllers/    # Route controllers
-├── routes/         # Application routes
+├── models/ # Database models
+├── views/ # Handlebars templates
+├── public/ # Static assets (CSS, images)
+├── controllers/ # Route controllers
+├── routes/ # Application routes
 ├── package.json
-└── index.js        # Application entry point
+└── index.js # Application entry point
+```
