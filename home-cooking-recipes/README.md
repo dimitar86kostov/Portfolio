@@ -2,7 +2,7 @@
 
 A **server-side rendered** web application for sharing and exploring home-cooked recipes.
  
-Build with **Node.js**, **Express**, **MongoDB** и **Handlebars**.
+Build with **Node.js**, **Express**, **MongoDB** & **Handlebars**.
 
 ---
 
