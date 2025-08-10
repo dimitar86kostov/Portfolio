@@ -8,16 +8,15 @@ Build with **Node.js**, **Express**, **MongoDB** и **Handlebars**.
 
 ## 📸 Screenshots
 
-![Catalog](public/screenshots/catalog.JPG)
-![Create](public/screenshots/create.JPG)
-![Search](public/screenshots/search.JPG)
-![Register](public/screenshots/register.JPG)
+![Catalog](public/screenshots/catalog.jpg)
+![Create](public/screenshots/create.jpg)
+![Search](public/screenshots/search.jpg)
+![Register](public/screenshots/register.jpg)
 ---
 
 ## 🚀 Getting Started
 
 ### 🧩 1. Clone the repository
-```bash
 git clone https://github.com/dimitar86kostov/Portfolio.git
 
 ### 📂 2. Navigate to the project folder
