@@ -1,0 +1,43 @@
+import jwt from "jsonwebtoken";
+import config from "config";
+import fs from "fs";
+import path from "path";
+
+const privateKey = fs.readFileSync(path.join(__dirname, "../keys/private.pem"), "utf8");
+const publicKey = fs.readFileSync(path.join(__dirname, "../keys/public.pem"), "utf8");
+
+// const privateKey = config.get<string>("privateKey");
+// const publicKey = config.get<string>("publicKey");
+
+export function signJwt(
+    object: Object,
+    options?: jwt.SignOptions | undefined,
+
+) {
+    console.log("PRIVATE KEY:", privateKey);
+    console.log("PUBLIC KEY:", publicKey);
+
+    return jwt.sign(object, privateKey, {
+        ...(options && options),
+        algorithm: "RS256",
+    })
+}
+
+export function verifyJwt(token: string) {
+
+    try {
+        const decoded = jwt.verify(token, publicKey);
+        return {
+            valid: true,
+            expired: true,
+            decoded
+        }
+    } catch (e: any) {
+        return {
+            valid: false,
+            expired: e.message == 'jwt expired',
+            decoded: null
+        }
+    }
+}
+

@@ -8,7 +8,7 @@ export const createUserSchema = object({
             .nonempty('Password is required'),
         passwordConfirmation: string().nonempty('Password confirmation is required'),
         email: string().email('Invalid email format').nonempty('Email is required'),
-    }).refine((data) => data.password === data.passwordConfirmation, { 
+    }).refine((data) => data.password === data.passwordConfirmation, {
         message: 'Passwords do not match',
         path: ['passwordConfirmation'],
     })
