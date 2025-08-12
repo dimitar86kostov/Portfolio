@@ -4,18 +4,15 @@ import logger from "../utils/logger";
 import { createUser } from "../service/user.service";
 import { CreateUserInput } from "../schema/user.schema";
 
-export default async function createUserHandler(
-    req: Request<{}, {}, CreateUserInput>,
-    res: Response
+export async function createUserHandler(
+  req: Request<{}, {}, CreateUserInput>,
+  res: Response
 ) {
-
-    try {
-        const user = await createUser(req.body);
-
-        return res.send(omit(user.toJSON(), 'password', 'passwordConfirmation'));
-
-    } catch (e: any) {
-        logger.error(e);
-        return res.status(409).send(e.message);
-    }
+  try {
+    const user = await createUser(req.body);
+    return res.send(user);
+  } catch (e: any) {
+    logger.error(e);
+    return res.status(409).send(e.message);
+  }
 }
